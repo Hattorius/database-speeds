@@ -20,5 +20,9 @@
     "neo4j": "node tests/neo4j.js",
     "couchbase": "node tests/couchbase.js",
     "miradb": "node tests/miradb.js"
-  }
+  },
+  "dependencies": {
+    "arangojs": "^7.6.1"
+  },
+  "type": "module"
 }
