@@ -1,0 +1,24 @@
+{
+  "name": "database",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Hattorius/database.git",
+  "author": "Aaron Jonk <AJ@jonk.name>",
+  "license": "MIT",
+  "scripts": {
+    "postgresql": "node tests/postgresql.js",
+    "rethinkdb": "node tests/rethinkdb.js",
+    "mongodb": "node tests/mongodb.js",
+    "couchdb": "node tests/couchdb.js",
+    "arangodb": "node tests/arangodb.js",
+    "sqlite": "node tests/sqlite.js",
+    "redis": "node tests/redis.js",
+    "rxdb": "node tests/rxdb.js",
+    "mysql": "node tests/mysql.js",
+    "cassandra": "node tests/cassandra.js",
+    "orientdb": "node tests/orientdb.js",
+    "neo4j": "node tests/neo4j.js",
+    "couchbase": "node tests/couchbase.js",
+    "miradb": "node tests/miradb.js"
+  }
+}
